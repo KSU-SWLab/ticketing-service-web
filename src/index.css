@@ -8,6 +8,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* set default a tag color */
+body a {
+  color: #262626;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+body a:hover {
+  color: #5f5da6;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
